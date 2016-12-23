@@ -1,5 +1,5 @@
 html {
-    background: url('Images/homepage_image.jpg') no-repeat center fixed; 
+    background: url('Images/homepage_image.jpg'); 
     background-size: cover;
 }
 
