@@ -16,7 +16,6 @@ body {
 	}
 
 	.topleft {
-		position: absolute;
     	top: 8px;
     	left: 16px;
     	font-size: 18px;
@@ -24,7 +23,6 @@ body {
 
 	.navlinks {
 		font-family: sans-serif;
-		position: left;	
 		margin: 200px, 0px
 	}
 }
