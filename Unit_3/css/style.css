@@ -2,12 +2,16 @@ html {
     background: url('/Images/homepage_image.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-origin: border-box;
 }
 
 body {
 	background-color: white;
 	font-family: Arial, sans-serif;
+	}
+
+div {
+	margin: auto;
+	
 
 	}
 
@@ -21,7 +25,7 @@ body {
 		margin-bottom: 100px;
 		margin-left: 800px;
 	}
-	
+
 	.topleft {
 		position: absolute;
     	top: 8px;
