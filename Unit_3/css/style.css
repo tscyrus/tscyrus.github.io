@@ -1,5 +1,5 @@
 html {
-    background: url('Images/homepage_image.jpg'); 
+    background: url('/Images/homepage_image.jpg'); 
     background-size: cover;
 }
 
