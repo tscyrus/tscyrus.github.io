@@ -22,7 +22,7 @@ body {
     	font-size: 18px;
 	}
 
-	#navlinks {
+	.navlinks {
 		font-family: sans-serif;
 		margin: 200px, 0px
 	}
