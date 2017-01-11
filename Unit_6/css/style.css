@@ -22,34 +22,26 @@ body {
 	}
 
 	.header {
-		background-color: #ffed74;
-		border: 1px black solid;
-		padding: 20px;
+		background: #ffd4d6;
 		width: 100%;
 		min-height: 60px;
 		position: fixed;
 		text-align: right;
 		z-index: 9999;
 	}
-	
 	.header .container {
 		margin-top: 1px;
     	margin-bottom: 14px;
     	position: relative;
 	}
-
 	.container {
-		background-color: #ffe2b8;
-		border: 1px black solid;
 		max-width: 1100px;
 		margin: 0 auto;
 		padding: 1%;
 	}
-
 	.logo {
 		float: left;
 	}
-
     .menu_wrapper {
     	display: inline-block;
     	max-width: 40%;
@@ -72,18 +64,7 @@ body {
 		background-size: cover;
 		background-position: 50% -50px;
 	}
-
-	.navlinks {
-		background-color: #e8c66a;
-		border: 1px black solid;
-		color: #403535;
-		padding: 10px;
-		font-family: 'Roboto:400', sans-serif;
-		text-decoration: none;
-		letter-spacing: 1px;
-		}
-	}
-
+	
 	.center {
     	position: absolute;
     	top: 30%;
@@ -92,25 +73,28 @@ body {
     	font-size: 2.5em;
     	font-family: 'Pacifico', cursive;
 	}
-
-	ul {
+	nav {
     	list-style-type: none;
     	margin: 100;
-    	padding: 100;
     	overflow: hidden;
+		color: #403535;
+		padding: 10px;
+		font-family: 'Roboto:400', sans-serif;
+		text-decoration: none;
+		letter-spacing: 1px;
 	}
-
-	li {
-    	float: left;
-    	border-right: 1px solid #403535;
-	}
-
-	li a {
+	nav a {
+	float: left;
+    border-right: 1px solid #403535;
     display: block;
-    color: white;
+    color: #403535;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	}	
+
+	nav a:hover {
+		color: #ffffff;
 	}
 
 	h2 {
@@ -120,14 +104,12 @@ body {
 		font-family: 'Pinyon Script', cursive;
 		letter-spacing: 1px;
 	}
-
 	#about {
 		width: 1100px;
 		font-size: .75em;
 		margin: 10px;
 		font-family: 'Roboto:400', sans-serif;
 	}
-
 	#middle_title {
 		width: 1100px;
 		text-align: center;
@@ -141,23 +123,62 @@ body {
 
 	}
 
+	.wrapper {
+
+	}
+
+	.column {
+		float: left;
+		width: 200px;
+		height: 200px;
+		padding: 20px;
+		margin: 10px;
+		text-align: center;
+		color: #403535;
+		font-family: 'Lato', sans-serif;
+	}
+
+	#column1 {
+		background-color: #bf9fa0;
+	}
+
+	#column2 {
+		background-color: #bf9fa0;
+	}
+
+	#column3 {
+		background-color: #bf9fa0;
+	}
+
+	#column4 {
+		background-color: #bf9fa0;
+	}
+
+
+
 	#copywrite {
 		text-align: center;
 		font-size: .5em;
 		color: #ffffff;
+		text-align: right;
 	}
-
 	#contact {
 		color: #ffffff;
 		font-size: .75em;
 	}
-
 	#contact a {
 		color: #ffffff;
 		font-size: .75em;
 	}
-
 	.footer {
-		background-color: #ff957e;
-		border: 1px black solid;
+		background: #403535;
+	}
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
 	}
