@@ -53,8 +53,6 @@ body {
 		display: block;
 	}
     .menu_wrapper {
-    	/*max-width: 40%;*/
-		width: 50%;
 		text-align: right;
 		font-size: .75em;
 		font-family: 'Lato', sans-serif;
@@ -100,6 +98,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	}
+
+	a:last-child {
+		border-right: none;
 	}	
 
 	nav a:hover {
